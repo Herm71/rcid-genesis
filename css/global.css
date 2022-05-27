@@ -1,0 +1,1369 @@
+.clear {
+    clear:both;
+}
+.group:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+/**
+ * Fontello Custom
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  float:left;
+  line-height:1.625em!important;
+}
+/**
+ * Newsletter Popup
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+.subscribe-me {
+    
+    
+}
+.sb {
+    height:250px !important;
+    
+}
+
+div.subscribe-me .gform_body ul li input.medium {
+    width: 70% !important;
+    float:left !important;
+    
+}
+
+.subscribe-me .gform_body #input_5-2 {
+    width: 70% !important;
+    float:left !important;
+    
+}
+
+.subscribe-me .gform_footer {
+    width: 30% !important;
+    float:left !important;
+    clear:none !important;
+    padding:0 !important;
+    margin:0 !important;
+   
+    
+}
+
+.subscribe-me .gform_footer input{
+    width:100% !important;
+}
+
+.sb .sb-close-btn {
+    color: #F5821F!important;
+    font-weight:700;
+}
+
+/*Subscribe Me media queries*/
+@media only screen and (max-width: 768px) {
+    .sb {
+        margin-left: -150px!important;
+        width: 300px!important;
+        height: auto!important;
+        }
+}
+
+
+/**
+ * Mobile Menu
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+
+/*customize #sidr ID */
+
+.sidr {
+    width: auto;
+}
+
+.sidr.left {
+    width:auto;
+}
+
+/*hide on desktop*/
+#mobile-menu {
+    display:none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index:5;
+    
+    }
+    
+.nav-tabs {
+        display:none;
+    }
+/*display on mobile*/
+@media only screen and (max-width: 767px){
+    #mobile-menu {
+        display: block;
+        
+    }
+    .nav-tabs {
+        display:block;
+    }
+    .nav-primary {
+        display:none;
+    }
+}
+
+/**
+ * Top Bar
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+ 
+ /*Top Bar */
+#top-bar {
+    display:block;
+    background-color:#F5821F;
+    height:38px;
+    height:3.8rem;
+    padding-top:4px;
+    padding-top:0.4rem;
+    }
+    
+#top-bar .wrap {
+
+}
+
+/*Top Bar Left*/
+#top-bar #tb-left, #top-bar #tb-left li {
+    float:left;
+    display:block;
+}
+
+/*Top Bar Right*/
+#top-bar #tb-right {
+    float:right;
+    display:block;
+}
+
+#text-26, #search-3, #shopping_cartplus-2 {
+    float:left;
+}
+
+/*Top Bar Menus*/
+
+#menu-free-shipping, #menu-free-shipping-1, #menu-login-register, #menu-log-out {
+    list-style:none;
+    
+}
+
+#tb-right #nav_menu-11{
+	display:none;
+}
+
+#menu-item-5583 {
+	padding-right: 1rem;
+}
+
+#menu-log-out {
+    width: 125px;
+    width: 12.5rem;
+}
+
+#menu-log-out li {
+    float:left;
+    padding-right: .75rem;
+}
+
+#menu-login-register, #menu-log-out {
+   float:right;
+   padding-right: .5rem;
+}
+
+#menu-free-shipping li a, #menu-free-shipping-1 li a, #menu-login-register li a, #menu-log-out li a {
+    color:#FFF;
+    font-size: 1.2rem;
+}
+
+#menu-free-shipping li a, #menu-free-shipping-1 li a {
+    text-transform: uppercase;
+    font-weight:900;
+}
+
+#menu-login-register li a {
+   
+}
+
+#top-bar .menu-header {
+    padding-right:10px;
+    padding-right:1rem;
+}
+#top-bar .widget_search, #top-bar .menu-header {
+	float: right;
+}
+
+/*Top Bar Search*/
+#top-bar .widget_search {
+	
+	/*background: transparent url("images/search-transparency.png") repeat;
+	width: 170px;
+	height: 20px;*/
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#top-bar .widget_search input[type="search"] {
+	margin: 0 0 0 0;
+	padding: 0 20px 0 5px;
+	width: 170px;
+	height: 20px;
+	/*background: transparent;*/
+	border: none;
+	color: #999;
+	text-transform: uppercase;
+	font-size: .6em;
+	font-family: "futura-pt",sans-serif;
+}
+
+#top-bar .widget_search input[type="submit"] {
+	background: transparent url("../images/search-icon.png") no-repeat;
+	width: 20px;
+	height: 20px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	line-height: 11px;
+	padding: 0;
+	text-decoration: none;
+	font-size: 11px;
+	text-indent: -9999px;
+	float: right;
+	position: relative;
+    top:9px;
+	top: .9rem;
+    right:20px;
+    right:2rem;
+}
+
+#top-bar .widget_search input.searchsubmit:active {
+	 
+}
+
+/*Top Bar Drop Down Cart*/
+
+#top-bar #shopping_cartplus-2 {
+    float:left;
+}
+
+#top-bar #shopping_cartplus-2 .widgettitle {
+    display: none;
+}
+
+/* Top Bar Login/Logout/Register */
+
+#top-bar #tb-right .widget_nav_menu {
+	float: left;
+	/*margin-left: 2em;
+	margin-right: 1em;*/
+}
+
+#top-bar .login-acct a {
+	font-size: .6em;
+	line-height: 9px;
+	color: #fff;
+	padding: 0 6px 0 6px;
+	font-family: "futura-pt",sans-serif;
+	text-transform: uppercase;
+	float: none;
+}
+
+/* Top Bar Free Shipping */
+/*.widget.widget_nav_menu, .widget.widget_text {
+   float:left;
+}
+.widget.widget_text .value-box img {
+  
+}*/
+
+
+/**
+ * Ask Ruthie
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+
+#ask-ruthie{
+	width: 100%;
+        padding-top:30px;
+        padding-top:3rem;
+}
+
+.hundred {
+    width: 100%;
+}
+.fifty {
+    /*width:50%;*/
+}
+
+.got-question {
+	color: #fff;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	text-align:right;
+    margin: 0;
+	/*padding: 20px 0 20px 0;*/
+
+}
+
+.ask-ruthie-list{
+		float:right;
+		padding:0 0 15px 0;
+        padding:0 0 1.5rem 0;
+}
+
+.ask-ruthie-list li{
+	display: inline;
+	list-style-type: none;
+	float:left;
+	padding-right: 10px;
+}
+
+.ask-ruthie {
+	
+	color: #E67F2B;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	font-size: 3rem;
+	font-style:italic;
+	font-weight: 700;
+	text-align: right;
+    margin:0;
+}
+
+.ask-ruthie a{
+	text-decoration: none;
+}
+
+span.ask-ruthie-cta{
+	background: url('images/ask-ruthie-btn.png') center center no-repeat;
+	display:block;
+	width:43px;
+	height:43px;
+	float:right;
+	padding: 0 0 0 15px;
+	margin-top: -10px;
+
+}
+
+/**
+ * Free Shipping
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+  .value-box {
+    width:100%;
+    float:right;
+    list-style-type:none;
+    }
+.value-box li {
+  float:left;
+  list-style-type:none !important;
+}
+
+.value-box li:first-child {
+  margin-right:0.5rem;
+}
+
+.value-box li:last-child {
+  margin-top:1rem;
+  font-weight:700;
+  font-style:italic;
+}
+
+    
+.value-box img { 
+  width:75px;
+}
+ 
+ 
+/**
+ * Social Icons
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+.social-icons {
+	
+    max-width:100%;
+}
+
+.social-icons ul {
+	width:100%;
+}
+
+.social-icons ul li {
+    display:inline-block;
+    text-align:right;
+    width: 7%;
+}
+
+/*Footer Social*/
+.footer-widgets-4 .social-icons ul li {
+    display:inline-block;
+    text-align:center;
+    width: 18%;
+}
+
+.social-icons a {
+	display:block;
+}
+
+.social-icons a img {
+
+}
+
+/*Tagline Description */
+#description {
+	line-height: 1.25;
+	font-size: 25px;
+    font-size: 2.5rem;
+    font-weight:700;
+    text-transform:uppercase;
+    text-align:center;
+	
+	color:#741F1A;
+}
+
+#description span {
+	font-style:italic;
+}
+
+/*sidebar newsletter */
+section .gform_wrapper .top_label input.medium {
+    width: 100% !important;
+}
+
+/**
+ * FlexSlider -- Additional Styles
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+
+.flexslider .slides > li {
+    position:relative;
+}
+
+.flex-caption {
+  position: absolute;
+  background: #741F1A;
+  background: rgba(116,31,26, 0.75);
+  padding: 15px 0 0;
+  margin-top: -200px;
+  margin-top: -15rem;
+  margin-left: 30px;
+  margin-left: 3rem;
+}
+.flex-caption h2,
+.flex-caption h2 a,
+.flex-caption p {
+  color: #ffffff;
+  line-height: 100%;
+  max-width: 94%;
+  margin: 0 auto 15px;
+  display: block;
+}
+.flex-caption p {
+  line-height: 150%;
+}
+.flex-caption h2 a {
+  margin: 0;
+}
+.flex-caption p a {
+  color: #fff;
+}
+
+.flex-direction-nav a  { 
+    height: 60px !important;
+}
+
+.flex-control-paging li a {
+    width: 11px; 
+    height: 11px; 
+    display: block; 
+    background: #A5CE3A !important; 
+    background: rgba(165,206,58,0.5)!important; 
+    cursor: pointer; 
+    text-indent: -9999px; 
+    -webkit-border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    -o-border-radius: 20px; 
+    border-radius: 20px; 
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+    -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+    -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+}
+
+.flex-control-paging li a:hover { 
+    background: #F5821F !important; 
+    background: rgba(0,0,0,0.7); 
+    }
+
+.flex-control-paging li a.flex-active { 
+    background: #F5821F !important;
+    background: rgba(245,130,31, 0.9) !important;
+}
+
+/**
+ * Related Posts
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+ 
+.related-posts {
+	border-top: 2px solid #701E1D;
+	font-size: 20px;
+    padding-top: 10px;
+}
+
+.related-posts-ul {
+    width:100%;
+	margin-left: 20px;
+    margin-left: 2rem;
+    list-style-type: none;
+}
+
+.related-posts-ul li{
+	line-height: 1.25;
+    float:left;
+    display: block;
+    width: 25%;
+    padding-right:5%;
+    
+}
+
+.related-posts-ul li a {
+    float:left;
+}
+
+/* Categories Grid
+----------------------------------------- */
+ 
+.categories-grid .entry-header {
+	margin-bottom: 40px;
+}
+ 
+.categories-grid h2.category-title a,
+.categories-grid h3.category-title a {
+	border-bottom: none;
+}
+ 
+.categories-grid .category-item {
+	margin-bottom: 40px;
+}
+ 
+.category .entry-title {
+	word-wrap: break-word;
+}
+ 
+.categories-grid .category-item p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+    
+    
+/**
+ * FOOTER WIDGETS CUSTOM
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+ 
+#nav_menu-6 li, #woocommerce_product_categories-3 li {
+    float:left;
+    padding-right: 10px;
+    padding: 0 1rem;
+    border-right: 1px solid #fff;
+ }
+ 
+#nav_menu-6 li:last-child, #woocommerce_product_categories-3 li:last-child {
+    border-right: none;
+ }
+
+ 
+  #woocommerce_product_categories-4 {
+    display:none;
+ }
+ /*Widget Customization*/ .widget .entry{
+    padding:0;
+    margin-bottom:20px;
+    margin-bottom:2rem;
+}
+
+ .widget img{
+    margin-bottom:0;
+}
+
+ .widget h2{
+    margin-bottom:10px;
+    margin-bottom:1rem;
+    font-size:16px;
+    font-size:1.6rem;
+    font-weight:700;
+}
+
+    .cat-item .children {       margin-left:20px;
+    }
+/*End Widget Customization*/
+ 
+ /**
+ * Call to Action
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+ 
+ #page-cta {
+    width: 100%;
+     
+ 
+    background: #F5821F;
+    padding: 20px;
+    float: left;
+    color: #fff;
+}
+
+#page-cta h3 {
+    color:#fff;
+    font-weight:700;
+    margin-bottom: 0;
+}
+
+#page-cta p {
+    margin-bottom: 0;
+}
+ .page-cta-left {
+    width: 50%;
+     
+ 
+    float: left;
+}
+ 
+  .page-cta-right {
+    width: 50%;
+     
+ 
+    float: left;
+}
+
+a.cta-button {
+    /* float: left; */
+    background: #FFF;
+    display:block;
+    padding: 20px;
+    margin: 35px auto 0;
+    
+    text-align: center;
+    width: 50%;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+a:hover.cta-button {
+    background: #A5CE3A;
+    color: #fff;
+}
+
+/**
+ * Team Members
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+
+.team-members {
+    
+    
+}
+
+.team-members {
+    list-style-type: none;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+	
+    
+}
+
+.team-members:after,
+.team-members:before {
+    content: '';
+    display: table;
+}
+
+.team-members:after {
+	clear: both;
+}
+
+.team-members li {
+    width: 175px;
+    height: 175px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.team-members-item {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+/*    box-shadow: 
+            inset 0 0 0 16px rgba(255,255,255,0.6),
+            0 1px 2px rgba(0,0,0,0.1);*/
+    transition: all 0.4s ease-in-out;
+}
+.team-members-item img{
+    border-radius: 50%;
+}
+
+.team-members-item:hover{
+/*    box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);*/
+}
+
+.team-members-info {
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(245,130,31, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+
+.team-members-item:hover .team-members-info {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.team-members-info p {
+    color: #fff;
+    
+    font-size: 18px;
+    font-size: 1.8rem;
+/*    border-top: 1px solid rgba(255,255,255,0.5);*/
+    opacity: 0;
+    transition: all 1s ease-in-out 0.4s;
+}
+
+.team-name {
+    font-weight: 700;
+    padding: 60px 0px 0px;
+    margin: 0px;
+}
+
+.team-title {
+    font-weight: 400;
+    font-style:italic;
+    padding:0;
+    margin: 0;
+}
+
+.team-members-item:hover .team-members-info p {
+    opacity:1;
+}
+
+.meet-team {
+    
+}
+
+a.meet-team {
+    /*float:right;*/
+    background: #A5CE3A;
+    display:block;
+    padding:10px;
+    /*margin-top: .25rem;*/
+    /*margin-right: 1rem*/
+    text-align: center;
+    margin: .25rem auto 0;
+    width: 200px;
+    
+    color: #fff;
+}
+a:hover.meet-team {
+    background: #F5821F;
+    color: #fff;
+}
+
+.meet-team p {
+    text-align: center !important;
+}
+
+
+/**
+ * Business Directory
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+
+//*Single Page*//
+.single-business_directory .biz-meta {
+    background-color: #eee;
+}
+
+.biz-meta {
+    float:left;
+    width:100%;
+    background-color: #eee;
+}
+
+.biz-meta ul li{
+    list-style-type:none;
+}
+.biz-meta span {
+    font-weight: 700;
+    
+}
+
+.biz-meta img {
+    float:left;
+    margin: 10px 30px 10px 10px;
+}
+
+.biz-meta h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: .5rem 0;
+}
+
+.biz-meta p {
+    margin:0;
+}
+
+.biz-image-wrap, .biz-meta-wrap {
+    float:left;
+    width:auto;
+}
+.biz-logo-wrap {
+    width: auto;
+   
+    float: left;
+}
+.biz-meta-wrap {
+    width: 60%;
+    
+    /* float: right; */
+}
+
+.biz-meta-left, .biz-meta-right {
+    float:left;
+    width: 50%;
+    list-style-type: none;
+}
+.biz-meta-left {
+    /* margin-right: 90px; */
+    padding-top: 10px;
+}
+
+.biz-meta-right {
+    padding-top: 10px;
+    
+}
+
+a.directions-button {
+    /* float: left; */
+    background: #F5821F;
+    display:block;
+    padding: 5px;
+    margin: 15px 0;
+    
+    text-align: center;
+    width: 85%;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+a:hover.directions-button {
+    background: #A5CE3A;
+    color: #fff;
+}
+.biz-directory-social {
+    width: 100%;
+    
+    float: left;
+    padding: 0 0 10px;
+}
+.biz-directory-social ul {
+    float: left;
+    list-style-type:none;
+    
+}
+
+.biz-directory-social li {
+    float: left;
+    list-style-type:none;
+    text-transform:capitalize;
+    width: 50%;
+    text-align: left;
+    
+}
+
+.biz-social {
+    
+}
+.biz-social-head {
+    width:100%!important;
+    /*background-color:#fff;*/
+}
+//*Archive Page*//
+
+
+
+h3.biz-directory-banner{
+    color:#fff;
+}
+
+.post-type-archive-business_directory .biz-meta ul{
+    margin:0;
+}
+
+.post-type-archive-business_directory .entry-title{
+    font-size:26px;
+    font-size:2.6rem;
+    margin: 0 0 0;
+}
+
+.post-type-archive-business_directory .entry, .tax-biz_category .entry{
+    background: #eee;
+    padding: 10px;
+}
+
+.post-type-archive-business_directory .entry-meta{
+    margin-bottom: 5px;
+    margin-bottom: .5rem;
+}
+
+.post-type-archive-business_directory .biz-meta ul li{
+    list-style-type:none;
+    float:left;
+    width:50%;
+}
+
+//*Directory Search Form *//
+.post-type-archive-business_directory #search-5 h4 {
+    float:left;
+}
+.biz-search-form {
+    float: left;
+    
+    width: 100%;
+    padding-bottom: 15px;
+    /* padding-right: 20px; */
+}
+.biz-search-field {
+    width: 90%;
+    
+    /* float: left; */
+}
+
+.biz-search-button {
+    padding-right:5px;
+}
+//*Directory Search Results*//
+.post-type-archive-business_directory .archive-description {
+    padding:0;
+}
+
+ /**
+ * FOOTER CUSTOM
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+ 
+#featured-post-8 .entry {
+    background-color:#F5821F;
+    width:100%;
+    
+}
+
+.creds a {
+    color: #fff;
+}
+
+.home .widget.featuredpost .entry {
+    width:33.333%;
+    float:left;
+    padding: 10px !important;
+}
+
+
+/*
+gravity forms
+---------------------------------------------------------------------------------------------------- */
+
+/*.gform_wrapper .gform_heading {
+    margin:0 !important;
+    padding-top: 8px;
+    padding-top: .8rem;
+}*/
+
+.gform_wrapper .gform_footer {
+    margin:0 !important;
+    padding-top: 8px;
+    padding-top: .8rem;
+}
+
+.gform_confirmation_message_7 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 1139px) {
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+
+
+}
+
+@media only screen and (max-width: 769px) {
+    .got-question {
+	color: #fff;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	text-align:center;
+    margin: 0;
+    }
+    .ask-ruthie {
+
+	text-align: center;
+    
+}
+
+/**
+ * Directory
+ */
+
+.post-type-archive-business_directory .biz-meta ul li { 
+    width: 50%;
+}
+.biz-meta-wrap {
+    width: 100%;
+    
+    /* float: right; */
+}
+
+/**
+ * Call to Action
+ */
+ 
+ #page-cta {
+    margin-bottom: 20px;
+    
+}
+
+#page-cta h3 {
+    text-align: center;
+   
+}
+
+#page-cta p {
+    display: none;
+    
+}
+ .page-cta-left {
+    width: 100%;
+   
+}
+ 
+  .page-cta-right {
+    width: 100%;
+     
+ 
+    float: left;
+}
+
+a.cta-button {
+    /* float: left; */
+    background: #FFF;
+    display:block;
+    padding: 5px;
+    margin: 10px auto 0;
+    
+    text-align: center;
+    width: 50%;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+a:hover.cta-button {
+    background: #A5CE3A;
+    color: #fff;
+}
+/*end cta*/
+
+
+    .ask-ruthie-list{
+        padding:0;
+    }
+    .social-icons {
+	
+    padding: 0;
+    text-align:center;
+    max-width:100%;
+}
+
+.social-icons a img {
+
+}
+.flex-caption {
+  margin-left: 20px;
+  margin-left: 2rem;
+  margin-top: -12rem;
+}
+.flex-caption h2 {
+    font-size: 2rem;
+    margin-bottom:10px;
+    
+}
+.flex-caption p {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+#menu-free-shipping li a {
+   padding-left: 15px;
+   padding-left: 1.5rem;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    #description, .ask-ruthie {
+        font-size:20px;
+        font-size:2rem;
+    }
+    
+    .got-question {
+        font-size: 15px;
+        font-size: 1.5rem;
+    }
+    
+    .flex-caption {
+
+}
+
+
+.flex-caption p {
+  line-height: 125%;
+  font-size:1.4rem;
+}
+.widget_search {
+    display:none;
+}
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .flex-caption {
+    margin-top:-9rem;
+  
+}
+.flex-caption h2{
+ font-size: 1.5rem;
+}
+.flex-caption p {
+  font-size: 1rem;
+}
+
+ /*Top Bar */
+#top-bar {
+    height:auto;
+    padding:0;
+    
+    }
+    
+#top-bar .widget_search {
+    float:none;
+    padding: .5rem;
+}
+    
+
+    /*Top Bar Left*/
+#top-bar #tb-left {
+    display:none
+}
+
+/*Top Bar Right*/
+#top-bar #tb-right {
+    float:none;
+    width:100%;
+}
+
+#tb-right #nav_menu-11{
+	display:block;
+}
+
+#text-26, #search-3, #shopping_cartplus-2 {
+    float:none;
+}
+
+#top-bar #tb-right .widget_nav_menu {
+	margin:0;
+}
+
+
+#top-bar #tb-right .search-form {
+	text-align:center;
+}
+
+#top-bar #tb-right .widget_nav_menu {
+	float: none;
+	margin: 0;
+}
+
+#menu-login-register, #menu-free-shipping-1 {
+   float:none;
+   padding:0;
+   text-align:center;
+}
+
+#menu-free-shipping-1 .menu-item {
+	float:left;
+	padding-right: .5rem;
+	
+}
+
+#menu-free-shipping-1 .wpmenucartli {
+	float:left;
+	
+}
+
+social-icons ul li {
+    width:18%;
+    text-align:center;
+}
+
+}
+.footer-address p {
+    margin-bottom:0;   
+}
+
+/** Media Queries **/
+
+    
+@media only screen and (max-width: 400px) {
+    .related-posts-ul li{
+        width: 100%;
+        padding-right:5%;
+        
+    }
+    
+    #description, .ask-ruthie {
+        font-size:15px;
+        font-size:1.5rem;
+    }
+    
+.flex-caption {
+  
+}
+.flex-caption h2{
+ 
+}
+.flex-caption p {
+  /*font-size: 1.8rem;*/
+}
+
+}
+
+@media only screen and (max-width: 384px) {
+      
+.flex-caption {
+  margin-top:-9rem;
+  margin-left:21rem;
+  max-width:100%
+}
+.flex-caption h2{
+    
+    max-width:100%;
+ 
+}
+.flex-caption p {
+  display:none;
+}
+
+.social-icons ul li {
+    display:inline-block;
+    text-align:center;
+    
+}
+
+
+#top-bar .widget_search input[type="submit"] {
+    right:85px;
+    right:8.5rem;
+}
+
+ #woocommerce_product_categories-3 {
+    display:none;
+ }
+ 
+  #woocommerce_product_categories-4 {
+    display:block;
+ }
+
+}
+
+
+
+@media only screen and (max-width: 320px) {
+#top-bar .widget_search input[type="submit"] {
+    right:50px;
+    right:5rem;
+}
+}

@@ -1,0 +1,52 @@
+/*
+Custom CSS for Radio Form, Page and Archive pages
+*/
+/* 
+    Created on : Mar 4, 2015, 11:03:05 AM
+    Author     : jason
+*/
+
+.single-radio_programs p{
+    font-size: 18px;
+}
+
+.single-radio_programs h2{
+    line-height: 1.625;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form-head {
+    
+}
+
+.form-head ul, .form-head ul li{
+    width:100%;
+    margin: 0;
+    list-style-type:none;
+}
+
+
+
+.form-head h2, .form-head p{
+    float:left;
+    padding-right: 5px;
+    line-height: 1.625;
+    font-size: 18px;
+    width: 33.333%;
+}
+
+.form-head p{
+    /*font-size: 16px;*/
+    font-weight: 400;
+}
+
+.form-head h2{
+    /*font-size: 16px;*/
+    font-weight: 700;
+}
+
+.form-head ul li h2, form-head ul li p{
+    width:33.333%;
+    margin: 0;
+}

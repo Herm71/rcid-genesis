@@ -1,0 +1,397 @@
+/*
+Before Content
+---------------------------------------------------------------------------------------------------- */
+#before-content {
+	/*background: url('../images/rotator.png') left center no-repeat;*/
+	display:block;
+	width:1140px;
+	height:593px;
+	}
+    
+/*clearfix*/
+.group:after {
+    visibility:hidden;
+    display:block;
+    content:"";
+    clear:both;
+    height:0;
+} 
+    
+.carousel-caption {
+    margin-bottom: 90px;
+    margin-bottom: 9rem;
+}
+    
+#home-content-wrap {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    clear:both;
+
+}
+/*This CSS is from the hand coded mock-up*/
+#home-portfolio {
+    display:block;
+    width: 66%;
+    float:left;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-top: 1.5rem;
+    
+    overflow:hidden;
+}
+
+
+#home-portfolio img {
+    border: 1px solid #741F1A;
+    }
+    
+#home-portfolio a:hover img {
+    border: 1px solid #A5CE3A;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+	-webkit-transition: all ease-in-out .2s;
+	-moz-transition: all ease-in-out .2s;
+	-o-transition: all ease-in-out .2s;
+	transition: all ease-in-o;
+    }
+    
+.home {
+
+}
+
+#home-content-wrap h1 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.4rem !important;
+    border-bottom:1px solid #F5821F;
+    
+}
+
+#home-portfolio p {
+    color:#741F1A;
+    text-align:center;
+    margin-bottom:0.6rem;
+    display:block;
+    width:100%;
+    float:left;
+}
+
+#home-portfolio p.price {
+    font-size:1.2rem;
+
+}
+
+#home-portfolio ul li {
+display: inline-block;
+list-style:none;
+float: none;
+width: 27%;
+text-align:center;
+vertical-align:top;
+margin: 13px 23px;
+margin-top: 1.3rem; 
+margin-bottom: 1.3rem;
+margin-left:2.3rem;
+margin-right:2.3rem;
+padding: 0;
+background: none;
+overflow: visible;
+position: relative;
+}
+
+#home-portfolio ul li a {
+    display:block;
+    text-align: center;
+}
+/*End Hand Coded Section Beginning Text Widget Section*/
+#text-21 {
+    display:block;
+    width: 66%;
+    float:left;
+    background-color: #fff;
+    margin-top: 15px;
+    
+    overflow:hidden;
+}
+
+
+#text-21 img {
+    border: 1px solid #741F1A;
+    }
+    
+#text-21 a:hover img {
+    border: 1px solid #A5CE3A;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+	-webkit-transition: all ease-in-out .2s;
+	-moz-transition: all ease-in-out .2s;
+	-o-transition: all ease-in-out .2s;
+	transition: all ease-in-o;
+    }
+    
+#text-21 p {
+    color:#741F1A;
+    text-align:center;
+    margin-bottom:0.6rem;
+    display:block;
+    width:100%;
+    float:left;
+}
+
+#text-21 p.price {
+    font-size:1.2rem;
+
+}
+
+#text-21 ul li {
+display: inline-block;
+list-style:none;
+float: none;
+width: 26%;
+text-align:center;
+vertical-align:top;
+margin: 13px 23px;
+margin-top: 1.3rem; 
+margin-bottom: 1.3rem;
+margin-left:2.3rem;
+margin-right:2.3rem;
+padding: 0;
+background: none;
+overflow: visible;
+position: relative;
+}
+
+#text-21 ul li a {
+    display:block;
+    text-align: center;
+}
+
+/***Recent Posts sidebar***/
+#featured-post-7 {
+    width:100%;
+    float:right;
+    display:block;
+    margin-top:15px;
+    margin-top:1.5rem;
+
+}
+
+#featured-post-7 .widget-wrap .widget-title {
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.4rem !important;
+    border-bottom:1px solid #F5821F;
+    text-transform: capitalize;
+    
+}
+
+#featured-post-7 .entry {
+    padding:0 3% 0 0;
+    margin-bottom:10px;
+    margin-bottom:1rem;
+    }
+    
+#featured-post-7 img {
+    margin:0 15px 0 0;
+    float:left;
+    }
+
+#featured-post-7 .entry h2 {
+    
+    font-size: 25px;
+    font-size: 2.5rem;
+    margin-bottom:0.5rem;
+}
+
+#featured-post-7 .entry p {
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin: 0 0 14px;
+    margin: 0 0 1.4rem;
+}
+/*End Text Widget Section*/
+
+#home-posts {
+    display:block;
+    width: 30%;
+    float:right;
+    background-color: #fff;
+    margin-top: 15px;
+    overflow:hidden;
+}
+
+ul.home-recent {
+    word-wrap:break-word;
+    width:100%;
+    list-style-type:none;
+}
+
+.home-recent a {
+    float:left;
+}
+
+.home-recent a:hover img{
+    border: 1px solid #A5CE3A;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+	-webkit-transition: all ease-in-out .2s;
+	-moz-transition: all ease-in-out .2s;
+	-o-transition: all ease-in-out .2s;
+	transition: all ease-in-o;
+}
+
+.home-recent img {
+    margin-right: 4px;
+    border: 1px solid #741F1A;
+}
+
+#home-posts p {
+    color:#741F1A;
+    text-align:left;
+    margin-bottom:0.6rem;
+    display:block;
+
+}
+    
+.home-recent p {
+    text-align:left;
+    }
+    
+    .testimonial-banner {
+    
+        
+    }
+    
+    .testimonial-banner h3 {
+    
+        font-size: 18px;
+        
+    
+        margin: 20px 0 0;
+        font-weight: 700;
+}
+    
+#testimonials {
+    /* margin-top: 16px; */
+    /* margin-top: 1.6rem; */
+    float: left;
+}
+
+
+    
+/* Bubble with an isoceles triangle
+------------------------------------------ */
+
+.triangle-isosceles {
+  position: relative;
+  padding: 15px;
+  margin: 1rem 0 3rem;
+  color: #FFF;
+  background: #741F1A;
+  border-radius: 0px;
+  -moz-box-shadow:    1px 1px 1px 1px #333;
+    -webkit-box-shadow: 1px 1px 1px 1px #333;
+    box-shadow:         1px 1px 1px 1px #333;
+  /*background: linear-gradient(top, #f9d835, #f3961c);*/
+}
+
+/* creates triangle */
+.triangle-isosceles:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  bottom: -15px;
+  left: 50px;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #741F1A transparent;
+  }
+
+.testimonials {
+    color: #741F1A;
+    font-weight:700;
+    margin-left: 1rem;
+}
+
+/*
+Testimonials Archive and Single Pages
+---------------------------------------------------------------------------------------------------- */
+.post-type-archive-testimonials .entry-title {
+    text-align: right;
+    font-size:26px;
+    font-size:2.6rem;
+}
+
+.post-type-archive-testimonials .cpt-archive-description{
+    padding:0 0 24px;
+    padding:0 0 2.4rem;
+    margin-bottom: 0;
+}
+
+.post-type-archive-testimonials .cpt-archive-description p{
+    font-size:20px;
+    font-size:2.0rem;
+    font-weight: 900;
+    margin-bottom:0;
+}
+
+.post-type-archive-testimonials .entry {
+    border-bottom:1px solid #741F1A;
+}
+
+.post-type-archive-testimonials .entry, .single-testimonials .entry {
+    margin-bottom:0;
+    font-weight:400;
+}
+
+.single-testimonials blockquote {
+    color:#741F1A;
+}
+
+.nav-next {
+    float:right;
+}
+
+
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-moz-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min-device-pixel-ratio: 1.5) {
+
+	
+	}
+
+
+@media only screen and (max-width: 1139px) {
+
+	
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+	
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    #home-portfolio, #home-portfolio ul li, #home-posts {
+    width:100%;
+    }
+    
+    #text-21, #text-21 ul li, #featured-post-7 {
+    width:100%;
+    }
+
+}

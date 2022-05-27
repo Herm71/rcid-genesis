@@ -1,0 +1,105 @@
+<?php
+
+//add_action ('genesis_before_entry','test');
+/*add_filter( 'genesis_grid_loop_args', 'test', 10, 2 );
+function test($grid, $query){
+  $grid = apply_filters( 'is_genesis_grid_loop', false );
+  return $grid;
+    
+}*/
+
+$grid = apply_filters( 'is_genesis_grid_loop', false );
+
+
+//* Remove the post content (requires HTML5 theme support)
+remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
+
+
+/**/
+
+add_action( 'get_header', 'tax_ss_handler', 12);
+
+function tax_ss_handler() {
+ 
+	 // Unhook GCW sidebar function
+	remove_action( 'genesis_sidebar', 'gencwooc_ss_do_sidebar' );
+	 // Add new callback
+	 add_action( 'genesis_sidebar', 'tax_do_sidebar' );
+}
+
+/**/function tax_do_sidebar() {
+
+	dynamic_sidebar( 'projects' );
+
+}
+
+// CUSTOM PROJECTS STYLES
+
+/**/add_action('wp_enqueue_scripts', 'project_header');
+	function project_header() {
+	  wp_enqueue_style( 'project-archive-style' );
+	}
+/**
+ * Based on
+ *
+ * Archive Post Class
+ * @since 1.0.0
+ *
+ * Breaks the posts into three columns
+ * @link http://www.billerickson.net/code/grid-loop-using-post-class
+ *
+ * @param array $classes
+ * @return array
+ */
+ 
+//PROJECTS SECONDARY MENU (Function located in /lib/functions/shortcodes.php)
+//echo do_shortcode("[projects-menu]");
+
+
+
+/*add_filter( 'post_class', 'rcid_projects_archive_post_class' );
+function rcid_projects_archive_post_class( $classes ) {
+	$classes[] = 'one-third';
+	global $wp_query;
+	if( 0 == $wp_query->current_post || 0 == $wp_query->current_post % 3)
+		$classes[] = 'first';
+	return $classes;
+}*/
+/**
+ * Attach Grid Loop Functions
+ * @author Bill Erickson
+ * @link http://www.billerickson.net/genesis-grid-loop-content/
+ *
+ 
+ add_action('genesis_before_post', 'rcid_archive_switch_content');
+ 
+ function rcid_archive_switch_content() {
+	remove_action( 'genesis_before_post_content', 'genesis_post_info' );
+	remove_action('genesis_post_content', 'genesis_do_post_content');
+	remove_action('genesis_post_title', 'genesis_do_post_title');
+	remove_action('genesis_after_post_content', 'genesis_post_meta');
+	add_action('genesis_after_post_content', 'rcid_after_post_content');
+	}*/
+
+/** Customize After Post Content 	
+function rcid_after_post_content(){
+	/*genesis_do_post_title();*/
+	/*genesis_post_info();
+	genesis_post_meta();
+    echo'<div class="post-meta border-bottom">'.do_shortcode ('[rcid_materials]').'</div>';
+}*/
+
+/** Customize the post info function to return custom fields */
+add_filter( 'genesis_post_info', 'post_info_filter' );
+function post_info_filter($post_info) {
+    $post_info = '[rcid_job_type]';
+    return $post_info;
+}
+/** Customize the post meta function*/ 
+add_filter( 'genesis_post_meta', 'post_meta_filter' );
+function post_meta_filter($post_meta) {
+    $post_meta = '[rcid_tax_space] [post_tags]';
+    return $post_meta;
+}
+	
+genesis();

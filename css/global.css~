@@ -1,0 +1,760 @@
+.clear {
+    clear:both;
+}
+
+/**
+ * Top Bar
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+ 
+ /*Top Bar */
+#top-bar {
+    display:block;
+    background-color:#F5821F;
+    height:38px;
+    height:3.8rem;
+    padding-top:4px;
+    padding-top:0.4rem;
+    }
+    
+#top-bar .wrap {
+
+}
+
+/*Top Bar Left*/
+#top-bar #tb-left, #top-bar #tb-left li {
+    float:left;
+    display:block;
+}
+
+/*Top Bar Right*/
+#top-bar #tb-right {
+    float:right;
+    display:block;
+}
+
+#text-26, #search-3, #shopping_cartplus-2 {
+    float:left;
+}
+
+/*Top Bar Menus*/
+
+#menu-free-shipping, #menu-free-shipping-1, #menu-login-register, #menu-log-out {
+    list-style:none;
+    
+}
+
+#tb-right #nav_menu-11{
+	display:none;
+}
+
+#menu-item-5583 {
+	padding-right: 1rem;
+}
+
+#menu-log-out {
+    width: 125px;
+    width: 12.5rem;
+}
+
+#menu-log-out li {
+    float:left;
+    padding-right: .75rem;
+}
+
+#menu-login-register, #menu-log-out {
+   float:right;
+   padding-right: .5rem;
+}
+
+#menu-free-shipping li a, #menu-free-shipping-1 li a, #menu-login-register li a, #menu-log-out li a {
+    color:#FFF;
+    font-size: 1.2rem;
+}
+
+#menu-free-shipping li a, #menu-free-shipping-1 li a {
+    text-transform: uppercase;
+    font-weight:900;
+}
+
+#menu-login-register li a {
+   
+}
+
+#top-bar .menu-header {
+    padding-right:10px;
+    padding-right:1rem;
+}
+#top-bar .widget_search, #top-bar .menu-header {
+	float: right;
+}
+
+/*Top Bar Search*/
+#top-bar .widget_search {
+	
+	/*background: transparent url("images/search-transparency.png") repeat;
+	width: 170px;
+	height: 20px;*/
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#top-bar .widget_search input[type="search"] {
+	margin: 0 0 0 0;
+	padding: 0 20px 0 5px;
+	width: 170px;
+	height: 20px;
+	/*background: transparent;*/
+	border: none;
+	color: #999;
+	text-transform: uppercase;
+	font-size: .6em;
+	font-family: "futura-pt",sans-serif;
+}
+
+#top-bar .widget_search input[type="submit"] {
+	background: transparent url("../images/search-icon.png") no-repeat;
+	width: 20px;
+	height: 20px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	line-height: 11px;
+	padding: 0;
+	text-decoration: none;
+	font-size: 11px;
+	text-indent: -9999px;
+	float: right;
+	position: relative;
+    top:9px;
+	top: .9rem;
+    right:20px;
+    right:2rem;
+}
+
+#top-bar .widget_search input.searchsubmit:active {
+	 
+}
+
+/*Top Bar Drop Down Cart*/
+
+#top-bar #shopping_cartplus-2 {
+    float:left;
+}
+
+#top-bar #shopping_cartplus-2 .widgettitle {
+    display: none;
+}
+
+/* Top Bar Login/Logout/Register */
+
+#top-bar #tb-right .widget_nav_menu {
+	float: left;
+	/*margin-left: 2em;
+	margin-right: 1em;*/
+}
+
+#top-bar .login-acct a {
+	font-size: .6em;
+	line-height: 9px;
+	color: #fff;
+	padding: 0 6px 0 6px;
+	font-family: "futura-pt",sans-serif;
+	text-transform: uppercase;
+	float: none;
+}
+
+/* Top Bar Free Shipping */
+/*.widget.widget_nav_menu, .widget.widget_text {
+   float:left;
+}
+.widget.widget_text .value-box img {
+  
+}*/
+
+
+/**
+ * Ask Ruthie
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+
+#ask-ruthie{
+	width: 100%;
+}
+
+.hundred {
+    width: 100%;
+}
+.fifty {
+    /*width:50%;*/
+}
+
+.got-question {
+	color: #fff;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	text-align:right;
+    margin: 0;
+	/*padding: 20px 0 20px 0;*/
+
+}
+
+.ask-ruthie-list{
+		float:right;
+		padding:0 0 15px 0;
+        padding:0 0 1.5rem 0;
+}
+
+.ask-ruthie-list li{
+	display: inline;
+	list-style-type: none;
+	float:left;
+	padding-right: 10px;
+}
+
+.ask-ruthie {
+	
+	color: #E67F2B;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	font-size: 3rem;
+	font-style:italic;
+	font-weight: 700;
+	text-align: right;
+    margin:0;
+}
+
+.ask-ruthie a{
+	text-decoration: none;
+}
+
+span.ask-ruthie-cta{
+	background: url('images/ask-ruthie-btn.png') center center no-repeat;
+	display:block;
+	width:43px;
+	height:43px;
+	float:right;
+	padding: 0 0 0 15px;
+	margin-top: -10px;
+
+}
+
+/**
+ * Free Shipping
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+  .value-box {
+    width:100%;
+    float:right;
+    list-style-type:none;
+    }
+.value-box li {
+  float:left;
+  list-style-type:none !important;
+}
+
+.value-box li:first-child {
+  margin-right:0.5rem;
+}
+
+.value-box li:last-child {
+  margin-top:1rem;
+  font-weight:700;
+  font-style:italic;
+}
+
+    
+.value-box img { 
+  width:75px;
+}
+ 
+ 
+/**
+ * Social Icons
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+.social-icons {
+	
+    max-width:100%;
+}
+
+.social-icons ul {
+	width:100%;
+}
+
+.social-icons ul li {
+    display:inline-block;
+    text-align:right;
+    width: 7%;
+}
+
+/*Footer Social*/
+.footer-widgets-4 .social-icons ul li {
+    display:inline-block;
+    text-align:center;
+    width: 18%;
+}
+
+.social-icons a {
+	display:block;
+}
+
+.social-icons a img {
+
+}
+
+/*Tagline Description */
+#description {
+	line-height: 1.25;
+	font-size: 25px;
+    font-size: 2.5rem;
+    font-weight:700;
+    text-transform:uppercase;
+    text-align:center;
+	
+	color:#741F1A;
+}
+
+#description span {
+	font-style:italic;
+}
+
+.gform_wrapper .top_label input.medium {
+    width: 100% !important;
+}
+
+/**
+ * FlexSlider -- Additional Styles
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+
+.flexslider .slides > li {
+    position:relative;
+}
+
+.flex-caption {
+  position: absolute;
+  background: #741F1A;
+  background: rgba(116,31,26, 0.75);
+  padding: 15px 0 0;
+  margin-top: -200px;
+  margin-top: -15rem;
+  margin-left: 30px;
+  margin-left: 3rem;
+}
+.flex-caption h2,
+.flex-caption h2 a,
+.flex-caption p {
+  color: #ffffff;
+  line-height: 100%;
+  max-width: 94%;
+  margin: 0 auto 15px;
+  display: block;
+}
+.flex-caption p {
+  line-height: 150%;
+}
+.flex-caption h2 a {
+  margin: 0;
+}
+.flex-caption p a {
+  color: #fff;
+}
+
+.flex-control-paging li a {
+    width: 11px; 
+    height: 11px; 
+    display: block; 
+    background: #A5CE3A !important; 
+    background: rgba(165,206,58,0.5)!important; 
+    cursor: pointer; 
+    text-indent: -9999px; 
+    -webkit-border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    -o-border-radius: 20px; 
+    border-radius: 20px; 
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+    -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+    -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+}
+
+.flex-control-paging li a:hover { 
+    background: #F5821F !important; 
+    background: rgba(0,0,0,0.7); 
+    }
+
+.flex-control-paging li a.flex-active { 
+    background: #F5821F !important;
+    background: rgba(245,130,31, 0.9) !important;
+}
+
+/**
+ * Related Posts
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+ 
+.related-posts {
+	border-top: 2px solid #701E1D;
+	font-size: 20px;
+    padding-top: 10px;
+}
+
+.related-posts-ul {
+    width:100%;
+	margin-left: 20px;
+    margin-left: 2rem;
+    list-style-type: none;
+}
+
+.related-posts-ul li{
+	line-height: 1.25;
+    float:left;
+    display: block;
+    width: 25%;
+    padding-right:5%;
+    
+}
+
+.related-posts-ul li a {
+    float:left;
+}
+
+/*REMOVE TITLE FROM SHOP PAGE USING BODY TAG*/
+.woocommerce-page h1.page-title {
+    display:none;
+    }
+    
+.woocommerce-page .term-description p {
+    display:none;
+    }
+    
+    
+/**
+ * FOOTER WIDGETS CUSTOM
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+ 
+#nav_menu-6 li, #woocommerce_product_categories-3 li {
+    float:left;
+    padding-right: 10px;
+    padding: 0 1rem;
+    border-right: 1px solid #fff;
+ }
+ 
+#nav_menu-6 li:last-child, #woocommerce_product_categories-3 li:last-child {
+    border-right: none;
+ }
+
+ 
+  #woocommerce_product_categories-4 {
+    display:none;
+ }
+ 
+ /**
+ * FOOTER CUSTOM
+ *
+ * @author Jason Chafin
+ * 
+ *
+ */
+ 
+#featured-post-8 .entry {
+    background-color:#F5821F;
+    
+}
+
+.creds a {
+    color: #fff;
+}
+
+.widget.featuredpost .entry {
+    width:100%;
+}
+
+
+/*
+gravity forms
+---------------------------------------------------------------------------------------------------- */
+
+/*.gform_wrapper .gform_heading {
+    margin:0 !important;
+    padding-top: 8px;
+    padding-top: .8rem;
+}*/
+
+.gform_wrapper .gform_footer {
+    margin:0 !important;
+    padding-top: 8px;
+    padding-top: .8rem;
+}
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 1139px) {
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+
+
+}
+
+@media only screen and (max-width: 769px) {
+    .got-question {
+	color: #fff;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	text-align:center;
+    margin: 0;
+    }
+    .ask-ruthie {
+
+	text-align: center;
+    
+}
+
+    .ask-ruthie-list{
+        padding:0;
+    }
+    .social-icons {
+	
+    padding: 0;
+    text-align:center;
+    max-width:100%;
+}
+
+.social-icons a img {
+
+}
+.flex-caption {
+  margin-left: 20px;
+  margin-left: 2rem;
+  margin-top: -12rem;
+}
+.flex-caption h2 {
+    font-size: 2rem;
+    margin-bottom:10px;
+    
+}
+.flex-caption p {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+#menu-free-shipping li a {
+   padding-left: 15px;
+   padding-left: 1.5rem;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    #description, .ask-ruthie {
+        font-size:20px;
+        font-size:2rem;
+    }
+    
+    .got-question {
+        font-size: 15px;
+        font-size: 1.5rem;
+    }
+    
+    .flex-caption {
+
+}
+
+
+.flex-caption p {
+  line-height: 125%;
+  font-size:1.4rem;
+}
+.widget_search {
+    display:none;
+}
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .flex-caption {
+    margin-top:-9rem;
+  
+}
+.flex-caption h2{
+ font-size: 1.5rem;
+}
+.flex-caption p {
+  font-size: 1rem;
+}
+
+ /*Top Bar */
+#top-bar {
+    height:auto;
+    padding:0;
+    
+    }
+    
+#top-bar .widget_search {
+    float:none;
+    padding: .5rem;
+}
+    
+
+    /*Top Bar Left*/
+#top-bar #tb-left {
+    display:none
+}
+
+/*Top Bar Right*/
+#top-bar #tb-right {
+    float:none;
+    width:100%;
+}
+
+#tb-right #nav_menu-11{
+	display:block;
+}
+
+#text-26, #search-3, #shopping_cartplus-2 {
+    float:none;
+}
+
+#top-bar #tb-right .widget_nav_menu {
+	margin:0;
+}
+
+
+#top-bar #tb-right .search-form {
+	text-align:center;
+}
+
+#top-bar #tb-right .widget_nav_menu {
+	float: none;
+	margin: 0;
+}
+
+#menu-login-register, #menu-free-shipping-1 {
+   float:none;
+   padding:0;
+   text-align:center;
+}
+
+#menu-free-shipping-1 .menu-item {
+	float:left;
+	padding-right: .25rem;
+	
+}
+
+#menu-free-shipping-1 .wpmenucartli {
+	float:left;
+	
+}
+
+social-icons ul li {
+    width:18%;
+    text-align:center;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+    .related-posts-ul li{
+        width: 100%;
+        padding-right:5%;
+        
+    }
+    
+    #description, .ask-ruthie {
+        font-size:15px;
+        font-size:1.5rem;
+    }
+    
+.flex-caption {
+  
+}
+.flex-caption h2{
+ 
+}
+.flex-caption p {
+  /*font-size: 1.8rem;*/
+}
+
+}
+
+@media only screen and (max-width: 384px) {
+      
+.flex-caption {
+  margin-top:-9rem;
+  margin-left:21rem;
+  max-width:100%
+}
+.flex-caption h2{
+    
+    max-width:100%;
+ 
+}
+.flex-caption p {
+  display:none;
+}
+
+.social-icons ul li {
+    display:inline-block;
+    text-align:center;
+    
+}
+
+
+#top-bar .widget_search input[type="submit"] {
+    right:85px;
+    right:8.5rem;
+}
+
+ #woocommerce_product_categories-3 {
+    display:none;
+ }
+ 
+  #woocommerce_product_categories-4 {
+    display:block;
+ }
+
+}
+
+
+
+@media only screen and (max-width: 320px) {
+#top-bar .widget_search input[type="submit"] {
+    right:50px;
+    right:5rem;
+}
+}
